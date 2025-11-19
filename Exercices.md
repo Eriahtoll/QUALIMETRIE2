@@ -40,3 +40,4 @@ ne sont pas courverte du tout.
 
 Après test de la première fonction, j'obtiens une courverture de 32% de la classe BankAccount avec une couverture de 100% de la fontion getInitMoneyAmount().
 
+Exercice 10 : Voir GitHub action 
