@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="bankAccountApp.AllTests" time="0.629" tests="24" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/runner/work/QUALIMETRIE2/QUALIMETRIE2/target/test-classes:/home/runner/work/QUALIMETRIE2/QUALIMETRIE2/target/classes:/home/runner/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/runner/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/runner/.m2/repository/org/mockito/mockito-core/3.2.0/mockito-core-3.2.0.jar:/home/runner/.m2/repository/net/bytebuddy/byte-buddy/1.10.3/byte-buddy-1.10.3.jar:/home/runner/.m2/repository/net/bytebuddy/byte-buddy-agent/1.10.3/byte-buddy-agent-1.10.3.jar:/home/runner/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/home/runner/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/home/runner/.m2/repository/org/powermock/powermock-api-mockito2/2.0.4/powermock-api-mockito2-2.0.4.jar:/home/runner/.m2/repository/org/powermock/powermock-api-support/2.0.4/powermock-api-support-2.0.4.jar:/home/runner/.m2/repository/org/powermock/powermock-reflect/2.0.4/powermock-reflect-2.0.4.jar:/home/runner/.m2/repository/org/powermock/powermock-core/2.0.4/powermock-core-2.0.4.jar:/home/runner/.m2/repository/org/javassist/javassist/3.25.0-GA/javassist-3.25.0-GA.jar:/home/runner/.m2/repository/org/powermock/powermock-module-junit4/2.0.4/powermock-module-junit4-2.0.4.jar:/home/runner/.m2/repository/org/powermock/powermock-module-junit4-common/2.0.4/powermock-module-junit4-common-2.0.4.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/23.0.2-7/x64/lib"/>
+    <property name="sun.java.command" value="/home/runner/work/QUALIMETRIE2/QUALIMETRIE2/target/surefire/surefirebooter-20251119154030129_3.jar /home/runner/work/QUALIMETRIE2/QUALIMETRIE2/target/surefire 2025-11-19T15-40-30_059-jvmRun1 surefire-20251119154030129_1tmp surefire_0-20251119154030129_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/runner/work/QUALIMETRIE2/QUALIMETRIE2/target/test-classes:/home/runner/work/QUALIMETRIE2/QUALIMETRIE2/target/classes:/home/runner/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/runner/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/runner/.m2/repository/org/mockito/mockito-core/3.2.0/mockito-core-3.2.0.jar:/home/runner/.m2/repository/net/bytebuddy/byte-buddy/1.10.3/byte-buddy-1.10.3.jar:/home/runner/.m2/repository/net/bytebuddy/byte-buddy-agent/1.10.3/byte-buddy-agent-1.10.3.jar:/home/runner/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/home/runner/.m2/repository/org/hamcrest/hamcrest-library/1.3/hamcrest-library-1.3.jar:/home/runner/.m2/repository/org/powermock/powermock-api-mockito2/2.0.4/powermock-api-mockito2-2.0.4.jar:/home/runner/.m2/repository/org/powermock/powermock-api-support/2.0.4/powermock-api-support-2.0.4.jar:/home/runner/.m2/repository/org/powermock/powermock-reflect/2.0.4/powermock-reflect-2.0.4.jar:/home/runner/.m2/repository/org/powermock/powermock-core/2.0.4/powermock-core-2.0.4.jar:/home/runner/.m2/repository/org/javassist/javassist/3.25.0-GA/javassist-3.25.0-GA.jar:/home/runner/.m2/repository/org/powermock/powermock-module-junit4/2.0.4/powermock-module-junit4-2.0.4.jar:/home/runner/.m2/repository/org/powermock/powermock-module-junit4-common/2.0.4/powermock-module-junit4-common-2.0.4.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/runner"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="/opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/23.0.2-7/x64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/runner/work/QUALIMETRIE2/QUALIMETRIE2"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/home/runner/work/QUALIMETRIE2/QUALIMETRIE2/target/surefire/surefirebooter-20251119154030129_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="23.0.2+7"/>
+    <property name="user.name" value="runner"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.11.0-1018-azure"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-23.0.2+7"/>
+    <property name="localRepository" value="/home/runner/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="23.0.2"/>
+    <property name="user.dir" value="/home/runner/work/QUALIMETRIE2/QUALIMETRIE2"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="23.0.2+7"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="testRegisterAccount" classname="bankAccountApp.ACHServiceTest" time="0.582">
+    <system-err><![CDATA[java.lang.instrument.IllegalClassFormatException: Error while instrumenting sun/util/resources/cldr/provider/CLDRLocaleDataMetaInfo with JaCoCo 0.8.10.202304240956/8ea9668.
+	at org.jacoco.agent.rt.internal_4a7f17c.CoverageTransformer.transform(CoverageTransformer.java:94)
+	at java.instrument/java.lang.instrument.ClassFileTransformer.transform(ClassFileTransformer.java:242)
+	at java.instrument/sun.instrument.TransformerManager.transform(TransformerManager.java:188)
+	at java.instrument/sun.instrument.InstrumentationImpl.transform(InstrumentationImpl.java:610)
+	at java.base/java.lang.ClassLoader.defineClass2(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1116)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:182)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:821)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassInModuleOrNull(BuiltinClassLoader.java:741)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClass(BuiltinClassLoader.java:621)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:640)
+	at java.base/java.lang.Class.forName(Class.java:669)
+	at java.base/java.lang.Class.forName(Class.java:644)
+	at java.base/java.util.ServiceLoader.loadProvider(ServiceLoader.java:855)
+	at java.base/java.util.ServiceLoader$ModuleServicesLookupIterator.hasNext(ServiceLoader.java:1080)
+	at java.base/java.util.ServiceLoader$2.hasNext(ServiceLoader.java:1305)
+	at java.base/java.util.ServiceLoader$3.hasNext(ServiceLoader.java:1387)
+	at java.base/sun.util.cldr.CLDRLocaleProviderAdapter.lambda$new$0(CLDRLocaleProviderAdapter.java:84)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at java.base/sun.util.cldr.CLDRLocaleProviderAdapter.<init>(CLDRLocaleProviderAdapter.java:83)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at java.base/sun.util.locale.provider.LocaleProviderAdapter.forType(LocaleProviderAdapter.java:182)
+	at java.base/sun.util.locale.provider.LocaleProviderAdapter.findAdapter(LocaleProviderAdapter.java:281)
+	at java.base/sun.util.locale.provider.LocaleProviderAdapter.getAdapter(LocaleProviderAdapter.java:252)
+	at java.base/java.text.DecimalFormatSymbols.getInstance(DecimalFormatSymbols.java:181)
+	at java.base/java.util.Formatter.getDecimalFormatSymbols(Formatter.java:2031)
+	at java.base/java.util.Formatter.getZero(Formatter.java:2039)
+	at java.base/java.util.Formatter$FormatSpecifier.localizedMagnitude(Formatter.java:4726)
+	at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:3559)
+	at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:3544)
+	at java.base/java.util.Formatter$FormatSpecifier.printInteger(Formatter.java:3242)
+	at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:3203)
+	at java.base/java.util.Formatter.format(Formatter.java:2801)
+	at java.base/java.util.Formatter.format(Formatter.java:2738)
+	at java.base/java.lang.String.format(String.java:4481)
+	at org.mockito.internal.creation.bytebuddy.SubclassBytecodeGenerator.mockClass(SubclassBytecodeGenerator.java:104)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator$1.call(TypeCachingBytecodeGenerator.java:37)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator$1.call(TypeCachingBytecodeGenerator.java:34)
+	at net.bytebuddy.TypeCache.findOrInsert(TypeCache.java:152)
+	at net.bytebuddy.TypeCache$WithInlineExpunction.findOrInsert(TypeCache.java:365)
+	at net.bytebuddy.TypeCache.findOrInsert(TypeCache.java:174)
+	at net.bytebuddy.TypeCache$WithInlineExpunction.findOrInsert(TypeCache.java:376)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator.mockClass(TypeCachingBytecodeGenerator.java:32)
+	at org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker.createMockType(SubclassByteBuddyMockMaker.java:71)
+	at org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker.createMock(SubclassByteBuddyMockMaker.java:42)
+	at org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker.createMock(ByteBuddyMockMaker.java:25)
+	at org.powermock.api.mockito.mockmaker.PowerMockMaker.createMock(PowerMockMaker.java:41)
+	at org.mockito.internal.util.MockUtil.createMock(MockUtil.java:35)
+	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:63)
+	at org.mockito.Mockito.mock(Mockito.java:1910)
+	at org.mockito.Mockito.mock(Mockito.java:1819)
+	at bankAccountApp.ACHServiceTest.testRegisterAccount(ACHServiceTest.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+Caused by: java.io.IOException: Error while instrumenting sun/util/resources/cldr/provider/CLDRLocaleDataMetaInfo with JaCoCo 0.8.10.202304240956/8ea9668.
+	at org.jacoco.agent.rt.internal_4a7f17c.core.instr.Instrumenter.instrumentError(Instrumenter.java:161)
+	at org.jacoco.agent.rt.internal_4a7f17c.core.instr.Instrumenter.instrument(Instrumenter.java:111)
+	at org.jacoco.agent.rt.internal_4a7f17c.CoverageTransformer.transform(CoverageTransformer.java:92)
+	... 84 more
+Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 67
+	at org.jacoco.agent.rt.internal_4a7f17c.asm.ClassReader.<init>(ClassReader.java:199)
+	at org.jacoco.agent.rt.internal_4a7f17c.asm.ClassReader.<init>(ClassReader.java:180)
+	at org.jacoco.agent.rt.internal_4a7f17c.asm.ClassReader.<init>(ClassReader.java:166)
+	at org.jacoco.agent.rt.internal_4a7f17c.core.internal.instr.InstrSupport.classReaderFor(InstrSupport.java:280)
+	at org.jacoco.agent.rt.internal_4a7f17c.core.instr.Instrumenter.instrument(Instrumenter.java:77)
+	at org.jacoco.agent.rt.internal_4a7f17c.core.instr.Instrumenter.instrument(Instrumenter.java:109)
+	... 85 more
+]]></system-err>
+  </testcase>
+  <testcase name="testTransferAmount" classname="bankAccountApp.ACHServiceTest" time="0.001"/>
+  <testcase name="test_getInitMoneyAmount" classname="bankAccountApp.BankAccountTest" time="0.014"/>
+  <testcase name="AlwaysMore" classname="bankAccountApp.BankAccountTest" time="0.0"/>
+  <testcase name="HappyPath" classname="bankAccountApp.BankAccountTest" time="0.004"/>
+  <testcase name="testgetAccountsLoaded" classname="bankAccountApp.BankTest" time="0.0"/>
+  <testcase name="testCreateAccount_GetAverageBalance" classname="bankAccountApp.BankTest" time="0.0"/>
+  <testcase name="testFindAccount" classname="bankAccountApp.BankTest" time="0.0"/>
+  <testcase name="testCreateAccount_GetMaximumBalance" classname="bankAccountApp.BankTest" time="0.0"/>
+  <testcase name="testGetAccounts" classname="bankAccountApp.BankTest" time="0.0"/>
+  <testcase name="testTransferAmount" classname="bankAccountApp.BankTest" time="0.0"/>
+  <testcase name="testCreateAccount_GetMinimumBalance" classname="bankAccountApp.BankTest" time="0.0"/>
+  <testcase name="testCreateAccount_DeleteAccount" classname="bankAccountApp.BankTest" time="0.0"/>
+  <testcase name="test_create_ver1_and_gets_hamcrest" classname="bankAccountApp.PersonTest" time="0.003"/>
+  <testcase name="test_person_validate_gender" classname="bankAccountApp.PersonTest" time="0.0"/>
+  <testcase name="test_create_ver3_and_gets" classname="bankAccountApp.PersonTest" time="0.001"/>
+  <testcase name="test_create_ver2_and_gets" classname="bankAccountApp.PersonTest" time="0.0"/>
+  <testcase name="test_create_ver1_and_gets" classname="bankAccountApp.PersonTest" time="0.001"/>
+  <testcase name="test_person_validate_gender_by_constructor" classname="bankAccountApp.PersonTest" time="0.0"/>
+  <testcase name="test_person_serialization_hamcrest" classname="bankAccountApp.PersonTest" time="0.001"/>
+  <testcase name="test_all_sets_hamcrest" classname="bankAccountApp.PersonTest" time="0.0"/>
+  <testcase name="test_create_ver4_and_gets_hamcrest" classname="bankAccountApp.PersonTest" time="0.006"/>
+  <testcase name="test_create_ver3_and_gets_hamcrest" classname="bankAccountApp.PersonTest" time="0.001"/>
+  <testcase name="test_create_ver2_and_gets_hamcrest" classname="bankAccountApp.PersonTest" time="0.0"/>
+</testsuite>
